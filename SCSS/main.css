@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: arial, sans-serif;
+  background-color: gainsboro;
+}
+
+.container {
+  width: 100%;
+  max-width: 1080px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.event-container {
+  margin-top: 50px;
+  display: flex;
+}
+.event-container .event-left {
+  width: 500px;
+  background-color: white;
+}
+.event-container .event-left .left-header {
+  background-image: url(../img/imag.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 60vh;
+  opacity: 0.9;
+}
+.event-container .event-left .left-header .left-btn {
+  cursor: pointer;
+  margin-top: 20px;
+  display: inline;
+  margin-left: 370px;
+  background-color: rgb(215, 76, 76);
+  width: 110px;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.event-container .event-left .left-header .left-img {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+}
+.event-container .event-left .left-content .left-heading {
+  font-size: 24px;
+}
+.event-container .event-left .left-content .left-text {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+.event-container .event-left .left-content .left-list {
+  list-style: none;
+  display: flex;
+  margin-top: 50px;
+  width: 500px;
+}
+.event-container .event-left .left-content .left-list .left-item .left-item-text {
+  width: 300px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.event-container .event-left .left-content .left-list .left-item-img {
+  height: 10px;
+  margin-left: auto;
+}
+.event-container .event-left .left-content .left-list .left-item-img img {
+  background-color: darkgray;
+}
+.event-container .event-right {
+  display: flex;
+}
+.event-container .event-right .even-right-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  list-style: none;
+}
+.event-container .event-right .even-right-list .item {
+  margin-top: 30px;
+}
+.event-container .event-right .even-right-list .even-right-item {
+  width: 250px;
+  background-color: white;
+  background-image: url(../img/image.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.event-container .event-right .even-right-list .even-right-item .even-right-img {
+  display: flex;
+  justify-content: center;
+}
+.event-container .event-right .even-right-list .even-right-item .even-right-heading {
+  font-size: 14px;
+  padding-top: 90px;
+}
+.event-container .event-right .even-right-list .even-right-item .item-list {
+  margin-top: 15px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.event-container .event-right .even-right-list .even-right-item .item-list .item-item {
+  display: flex;
+}
+.event-container .event-right .even-right-list .even-right-item .item-list .item-item .read-text {
+  color: darkgrey;
+  margin-left: 10px;
+}/*# sourceMappingURL=main.css.map */
